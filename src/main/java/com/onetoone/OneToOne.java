@@ -13,11 +13,11 @@ public class OneToOne {
 		SessionFactory sf=HibernateConnection.getSessionFactory();
 		Session s=sf.openSession();
 		
-//		inserting(s);
+		inserting(s);
 		findingDataByCitizen(s);
-//		Aadhar aadhar = s.find(Aadhar.class, 889977456123L);
-//		System.out.println(aadhar.toString());
-//		System.out.println(aadhar.getCitizen());
+		Aadhar aadhar = s.find(Aadhar.class, 889977456123L);
+		System.out.println(aadhar.toString());
+		System.out.println(aadhar.getCitizen());
 		
 	}
 

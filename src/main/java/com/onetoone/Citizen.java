@@ -71,8 +71,9 @@ public class Citizen {
 	}
 	@Override
 	public String toString() {
-		return "Citizen [citizenId=" + citizenId + ", citizenName=" + citizenName + ", citizenAge=" + citizenAge
-				+ ", aadhar=" + aadhar + "]";
+	    return "Citizen [citizenId=" + citizenId +
+	           ", citizenName=" + citizenName +
+	           ", citizenAge=" + citizenAge + "]";
 	}
 	public Citizen() {
 		
